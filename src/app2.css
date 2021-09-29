@@ -1,0 +1,27 @@
+#app2 {
+   
+}
+
+#app2 .tabBar {
+    border: solid 1px black;
+    display: flex;
+}
+
+#app2 .tabBar>li {
+    border: solid 1px rgb(121, 163, 241);
+    background: rgb(14, 70, 175);
+    width: 50vw;
+    color: darkgray;
+}
+#app2 .tabBar>li.selected{
+    background: cornflowerblue;
+    color: cornsilk;
+}
+#app2 .tabContent>li.active {
+    display: block;
+}
+
+#app2 .tabContent>li {
+    display: none;
+}
+

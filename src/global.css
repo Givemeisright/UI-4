@@ -1,0 +1,9 @@
+body>.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body>.page>section{
+    width: 48vw;
+    height: 50vh;
+    border: lightgray solid 1px;
+}

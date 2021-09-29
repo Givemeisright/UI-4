@@ -1,0 +1,57 @@
+#app1{
+border: 1px solid red;
+}
+#app1 .output{
+
+}
+#app1 .actions{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,*::before{
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+#app2 {
+    border: solid 1px blue;
+}
+
+#app2 .tabBar {
+    border: solid 1px black;
+    display: flex;
+}
+
+#app2 .tabBar>li {
+    border: solid 1px rgb(121, 163, 241);
+    background: rgb(14, 70, 175);
+    width: 50vw;
+    color: darkgray;
+}
+#app2 .tabBar>li.selected{
+    background: cornflowerblue;
+    color: cornsilk;
+}
+#app2 .tabContent>li.active {
+    display: block;
+}
+
+#app2 .tabContent>li {
+    display: none;
+}
+
+
+body>.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body>.page>section{
+    width: 48vw;
+    height: 50vh;
+}
+/*# sourceMappingURL=index.eeffbd16.css.map */

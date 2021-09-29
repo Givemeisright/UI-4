@@ -1,0 +1,16 @@
+#app3 .square{
+    width: 20vw;
+    height: 20vw;
+    border: darkgreen solid 1px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    transition-property: transform,border-radius;
+    transition-duration: 1s;
+    text-align:center;
+    padding: 35px 0;
+}
+
+#app3 .active{
+    transform: translateY(10vh);
+    border-radius: 50px;
+}
